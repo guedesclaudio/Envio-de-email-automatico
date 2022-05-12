@@ -36,7 +36,7 @@ def EnviaEmail():
         msg['Subject'] = assuntoEmail
         msg['From'] = meuEmail
         msg['To'] = emailCliente
-        password = 'srwlymldboocykki'
+        password = password
         msg.add_header('Content-Type', 'text/html')
         msg.set_payload(corpo_email )
         
